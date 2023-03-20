@@ -1,0 +1,223 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background: #ffffff;
+    margin: 15px;
+    width: 340px;
+}
+
+.preview {
+    background: #f9fafd;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.layout-placeholder {
+    color: #464b5b;
+    font-size: 18px;
+}
+
+.accordion {
+    background: #e6ebff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.accordion-title {
+    color: #0033ff;
+    font-weight: 800;
+    font-size: 18px;
+    margin: 0;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+.form-control {
+    background-color: #ffffff;
+    border: 1px solid #d6dae4;
+    border-radius: 3px;
+    padding: 6px 12px;
+    height: 38px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    margin: 0;
+    width: 15px;
+    height: 15px;
+}
+
+.radio-select {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+.layout-placeholder {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* For mobile devices */
+  @media (max-width: 767px) {
+    .layout-placeholder {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  /* For tablet devices */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .layout-placeholder {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* For desktop devices */
+  @media (min-width: 992px) {
+    /* Modify the number of columns based on your needs */
+    .layout-placeholder {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  
+
+.card {
+    background-color: white;
+    width: 430px;
+    height: 570px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    color: black;
+    margin: 10px;
+}
+
+.topPart{
+    position: relative;
+}
+
+.profilePic{
+
+    object-fit: cover;
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.nameAndDate{
+ 
+    margin-left: 15px;
+    display: inline-block;
+    
+}
+
+.date{
+    font-size: 10px;
+}
+
+.platform{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.mainImage{
+
+    height: 325px;
+    width: 400px;
+    margin-left: 15px;
+    margin-right: 15px;
+    object-fit: cover;
+
+ 
+}
+
+.bottomPart{
+
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+}
+
+
+
+.caption{
+
+   
+    font-size: 15px;
+    
+  
+}
+
+.numberOfLikes{
+        
+    font-size: 15px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.load-more{
+    font-family: 'Roboto Condensed', sans-serif;
+   position: absolute;
+  left: 43%;
+  bottom: -50px;
+  width: 137px;
+  height: 53px;
+  background: #0081FF;
+  color: white;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 13px;
+  border: none;
+
+  gap: 10px;
+
+}
+
+
+
